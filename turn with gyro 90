@@ -1,0 +1,49 @@
+#include <kipr/botball.h>
+#include <L_Mechanism.h>
+#include <arm_hand_position.h>
+#include <comp_lib.h>
+int main()
+{
+	/*turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+	turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+    turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+    turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+    turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+	turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+    turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(10);
+    turn_with_gyro(1500,90);
+    motor(1,0);
+    motor(2,0);
+    msleep(1000);*/
+    int i;
+    for(i=0; i<16; i++){
+        turn_with_gyro(1350,180);
+        motor(1,0);
+        motor(2,0);
+        msleep(20);
+    }
+    
+    
+    return 0;
+}
